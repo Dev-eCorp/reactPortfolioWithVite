@@ -1,0 +1,101 @@
+{
+    "header": {
+        "headerMain": {
+            "hello": "Hello I'm",
+            "scroll": "Scroll Down"
+        },
+        "cta": {
+            "cv": "Download CV",
+            "contact": "Let's Talk"
+        }
+    },
+    "nav": {
+        "es": "Translate to spanish",
+        "en": "Translate to english"
+    },
+    "about": {
+        "title": "Get To Know",
+        "subtitle": "About Me",
+        "content": {
+            "xp1": "Experience",
+            "xp2": "8 months working",
+            "cl": "Clients",
+            "pr1": "Projects",
+            "pr2": "6 Completed",
+            "text": "This is a descriptive text of the profile I don't know what to put yet.",
+            "contact": "Let's Talk"
+        }
+    },
+    "experience": {
+        "title": "What Skills I Have",
+        "subtitle": "My Experience",
+        "front": {
+            "title": "Frontend Development",
+            "f1": {
+                "xp": "Experienced"
+            },
+            "f2": {
+                "xp": "Intermediate"
+            },
+            "f3": {
+                "xp": "Intermediate"
+            },
+            "f4": {
+                "xp": "Basic"
+            },
+            "f5": {
+                "xp": "Basic"
+            },
+            "f6": {
+                "xp": "Basic"
+            }
+        },
+        "back": {
+            "title": "Backend Development",
+            "b1": {
+                "xp": "Intermediate"
+            },
+            "b2": {
+                "xp": "Intermediate"
+            },
+            "b3": {
+                "xp": "Intermediate"
+            },
+            "b4": {
+                "xp": "Basic"
+            },
+            "b5": {
+                "xp": "Intermediate"
+            },
+            "b6": {
+                "xp": "Intermediate"
+            }
+        }
+    },
+    "portfolio": {
+        "title": "My Recent Work",
+        "subtitle": "Portfolio",
+        "demo": "Live Demo"
+    },
+    "contact": {
+        "title": "Get In Touch",
+        "subtitle": "Contact Me",
+        "options": {
+            "mail": "Send a mail",
+            "message": "Send a message"
+        },
+        "form": {
+            "name": "Your Full Name",
+            "email": "Your Email",
+            "message": "Your Message"
+        }
+    },
+    "footer": {
+        "home": "Home",
+        "about": "About",
+        "experience": "Experience",
+        "portfolio": "Portfolio",
+        "contact": "Contact",
+        "copy": "Dev_eCorp. All rights reserved."
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "header": {
+        "headerMain": {
+            "hello": "Hola Soy",
+            "scroll": "Desplazarse Hacia Abajo"
+        },
+        "cta": {
+            "cv": "Descargar CV",
+            "contact": "Hablemos"
+        }
+    },
+    "nav": {
+        "es": "Traducir a español",
+        "en": "Traducir a ingles"
+    },
+    "about": {
+        "title": "Conozca",
+        "subtitle": "Sobre Mí",
+        "content": {
+            "xp1": "Experiencia",
+            "xp2": "8 meses trabajando",
+            "cl": "Clientes",
+            "pr1": "Proyectos",
+            "pr2": "6 Completados",
+            "text": "Este es un texto descriptivo del perfil que aún no sé qué poner.",
+            "contact": "Hablemos"
+        }
+    },
+    "experience": {
+        "title": "Qué habilidades tengo",
+        "subtitle": "Mi Experiencia",
+        "front": {
+            "title": "Desarrollo Frontend",
+            "f1": {
+                "xp": "Experimentado"
+            },
+            "f2": {
+                "xp": "Intermedio"
+            },
+            "f3": {
+                "xp": "Intermedio"
+            },
+            "f4": {
+                "xp": "Basico"
+            },
+            "f5": {
+                "xp": "Basico"
+            },
+            "f6": {
+                "xp": "Basico"
+            }
+        },
+        "back": {
+            "title": "Desarrollo Backend",
+            "b1": {
+                "xp": "Intermedio"
+            },
+            "b2": {
+                "xp": "Intermedio"
+            },
+            "b3": {
+                "xp": "Intermedio"
+            },
+            "b4": {
+                "xp": "Basico"
+            },
+            "b5": {
+                "xp": "Intermedio"
+            },
+            "b6": {
+                "xp": "Intermedio"
+            }
+        }
+    },
+    "portfolio": {
+        "title": "Mi Trabajo Reciente",
+        "subtitle": "Portafolio",
+        "demo": "Demo en vivo"
+    },
+    "contact": {
+        "title": "Ponte en contacto",
+        "subtitle": "Conmigo",
+        "options": {
+            "mail": "Enviar un correo",
+            "message": "Enviar un mensaje"
+        },
+        "form": {
+            "name": "Tu nombre completo",
+            "email": "Tu correo electrónico",
+            "message": "Tu mensaje"
+        }
+    },
+    "footer": {
+        "home": "Inicio",
+        "about": "Sobre Mí",
+        "experience": "Experiencia",
+        "portfolio": "Portafolio",
+        "contact": "Contacto",
+        "copy": "Dev_eCorp. Todos los derechos reservados."
+    }
+}

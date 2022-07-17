@@ -1,0 +1,139 @@
+header {
+    height: 100vh;
+    padding-top: 112rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.cta {
+    margin-top: 40rem;
+    display: flex;
+    gap: 19.2rem;
+    justify-content: center;
+}
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 48rem;
+}
+
+.header__socials::before {
+    content: "";
+    width: 1rem;
+    height: 32rem;
+    background: var(--color-primary);
+}
+
+.header__socials::after {
+    content: "";
+    width: 1rem;
+    height: 32rem;
+    background: var(--color-primary);
+}
+
+.header__socials a {
+    font-size: 24rem;
+    transition: all 265ms ease-out;
+}
+
+.header__socials a::before {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    content: " ";
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    transition: all 265ms ease-out;
+}
+
+.header__socials a:hover::before {
+    transform: scale(0);
+    transition: all 265ms ease-in;
+}
+
+.header__socials a:hover i {
+    transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 265ms ease-in;
+}
+
+.header__socials .social-icons li a:hover .lnkd {
+    background: linear-gradient(43deg, #4158D0 0%, #5bacdb 46%, #4474dd 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header__socials .social-icons li a:hover .gthb {
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #601844 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header__socials .social-icons li a:hover .wspp {
+    background: linear-gradient(43deg, #4158D0 0%, #46bb78 46%, #0b842b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header__socials .social-icons li a:hover .inst {
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 352rem;
+    height: 480rem;
+    position: absolute;
+    left: calc(50% - 176rem);
+    margin-top: 64rem;
+    border-radius: 192rem 192rem 0 0;
+    overflow: hidden;
+}
+
+.scroll__down {
+    position: absolute;
+    right: -33.8rem;
+    bottom: 180rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 24rem;
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+}
