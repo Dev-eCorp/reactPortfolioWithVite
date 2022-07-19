@@ -1,9 +1,9 @@
-import React from 'react';
-import './header.css';
-import CTA from './CTA';
-import ME from '../../assets/images/me.webp';
-import HeaderSocials from './HeaderSocials';
-import { useTranslation } from 'react-i18next';
+import React from "react";
+import "./header.css";
+import CTA from "./CTA";
+import ME from "../../assets/images/me.webp";
+import HeaderSocials from "./HeaderSocials";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
     const [t] = useTranslation("global");
@@ -18,7 +18,7 @@ const Header = () => {
                 <div className="me">
                     <img src={ME} alt="me" />
                 </div>
-                <a href="#contact" className='scroll__down'>{t("header.headerMain.scroll")}</a>
+                <a href="#contact" className="scroll__down">{t("header.headerMain.scroll")}</a>
             </div>
         </header>
     );

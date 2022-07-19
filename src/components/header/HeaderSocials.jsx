@@ -2,7 +2,7 @@ import "remixicon/fonts/remixicon.css";
 
 const HeaderSocials = () => {
     return (
-        <div className='header__socials'>
+        <div className="header__socials">
             <ul className="social-icons">
                 <li>
                     <a href="https://www.linkedin.com/in/eduard-ferney-cruz-ospina/" target="_blank" rel="noreferrer noopener"><i className="lnkd ri-linkedin-box-fill"></i></a>
