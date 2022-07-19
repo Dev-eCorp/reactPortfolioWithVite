@@ -12,7 +12,7 @@ const Header = () => {
             <div className="container header__container">
                 <h5>{t("header.headerMain.hello")}</h5>
                 <h1>Eduard Cruz</h1>
-                <h5 className="text-light">Fullstack Developer</h5>
+                <h5 className="text-light">Web Developer</h5>
                 <CTA />
                 <HeaderSocials />
                 <div className="me">
