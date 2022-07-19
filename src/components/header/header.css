@@ -85,7 +85,7 @@ header {
 }
 
 .social-icons .aInst::before {
-    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
 }
 
 .social-icons a:hover::before {
@@ -113,7 +113,7 @@ header {
 }
 
 .header__socials .social-icons li a:hover .inst {
-    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
 }
 
 .header__socials .social-icons li a:hover .icons {
