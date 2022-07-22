@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import "./contact.css";
 import {
-    AiOutlineMail,
-    AiOutlineWhatsApp
+    AiOutlineLinkedin,
+    AiOutlineInstagram
 } from "react-icons/ai"
 import { SiDiscord } from "react-icons/si";
 import emailjs from "emailjs-com";
@@ -24,16 +24,16 @@ const Contact = () => {
             <div className="container contact__container">
                 <div className="contact__options">
                     <article className="contact__option">
-                        <AiOutlineMail className="contact__option-icon" />
-                        <h4>Email</h4>
-                        <h5>eduardcruz.contact@gmail.com</h5>
-                        <a href="mailto:salikintres2001@gmail.com" target="_blank" rel="noreferrer noopener">{t("contact.options.mail")}</a>
+                        <AiOutlineLinkedin className="contact__option-icon" />
+                        <h4>LinkedIn</h4>
+                        <h5>Eduard Ferney Cruz Ospina</h5>
+                        <a href="https://www.linkedin.com/in/eduard-ferney-cruz-ospina/" target="_blank" rel="noreferrer noopener">{t("contact.options.message")}</a>
                     </article>
                     <article className="contact__option">
-                        <AiOutlineWhatsApp className="contact__option-icon" />
-                        <h4>WhatsApp</h4>
-                        <h5>+573006296323</h5>
-                        <a href="https://wa.link/3dj9gk" target="_blank" rel="noreferrer noopener">{t("contact.options.message")}</a>
+                        <AiOutlineInstagram className="contact__option-icon" />
+                        <h4>Instagram</h4>
+                        <h5>bug_buster__</h5>
+                        <a href="https://www.instagram.com/bug_buster__/" target="_blank" rel="noreferrer noopener">{t("contact.options.message")}</a>
                     </article>
                     <article className="contact__option">
                         <SiDiscord className="contact__option-icon" />
