@@ -30,47 +30,14 @@
         "title": "Qué habilidades tengo",
         "subtitle": "Mi Experiencia",
         "front": {
-            "title": "Desarrollo Frontend",
-            "f1": {
-                "xp": "Experimentado"
-            },
-            "f2": {
-                "xp": "Intermedio"
-            },
-            "f3": {
-                "xp": "Intermedio"
-            },
-            "f4": {
-                "xp": "Basico"
-            },
-            "f5": {
-                "xp": "Basico"
-            },
-            "f6": {
-                "xp": "Basico"
-            }
+            "title": "Desarrollo Frontend"
         },
         "back": {
-            "title": "Desarrollo Backend",
-            "b1": {
-                "xp": "Intermedio"
-            },
-            "b2": {
-                "xp": "Intermedio"
-            },
-            "b3": {
-                "xp": "Intermedio"
-            },
-            "b4": {
-                "xp": "Basico"
-            },
-            "b5": {
-                "xp": "Intermedio"
-            },
-            "b6": {
-                "xp": "Intermedio"
-            }
-        }
+            "title": "Desarrollo Backend"
+        },
+        "lvl1": "Basico",
+        "lvl2": "Intermedio",
+        "lvl3": "Avanzado"
     },
     "portfolio": {
         "title": "Mi Trabajo Reciente",

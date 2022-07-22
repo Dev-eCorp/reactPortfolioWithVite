@@ -30,47 +30,14 @@
         "title": "What Skills I Have",
         "subtitle": "My Experience",
         "front": {
-            "title": "Frontend Development",
-            "f1": {
-                "xp": "Experienced"
-            },
-            "f2": {
-                "xp": "Intermediate"
-            },
-            "f3": {
-                "xp": "Intermediate"
-            },
-            "f4": {
-                "xp": "Basic"
-            },
-            "f5": {
-                "xp": "Basic"
-            },
-            "f6": {
-                "xp": "Basic"
-            }
+            "title": "Frontend Development"
         },
         "back": {
-            "title": "Backend Development",
-            "b1": {
-                "xp": "Intermediate"
-            },
-            "b2": {
-                "xp": "Intermediate"
-            },
-            "b3": {
-                "xp": "Intermediate"
-            },
-            "b4": {
-                "xp": "Basic"
-            },
-            "b5": {
-                "xp": "Intermediate"
-            },
-            "b6": {
-                "xp": "Intermediate"
-            }
-        }
+            "title": "Backend Development"
+        },
+        "lvl1": "Basic",
+        "lvl2": "Intermediate",
+        "lvl3": "Advanced"
     },
     "portfolio": {
         "title": "My Recent Work",

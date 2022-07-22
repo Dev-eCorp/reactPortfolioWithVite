@@ -31,42 +31,42 @@ const Experience = () => {
                             <SiHtml5 className="experience__details-icon" />
                             <div>
                                 <h4>HTML</h4>
-                                <small className="text-light">{t("experience.front.f1.xp")}</small>
+                                <small className="text-light">{t("experience.lvl3")}</small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <SiCss3 className="experience__details-icon" />
                             <div>
                                 <h4>CSS</h4>
-                                <small className="text-light">{t("experience.front.f2.xp")}</small>
+                                <small className="text-light">{t("experience.lvl2")}</small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <SiJavascript className="experience__details-icon" />
                             <div>
                                 <h4>JavaScript</h4>
-                                <small className="text-light">{t("experience.front.f3.xp")}</small>
+                                <small className="text-light">{t("experience.lvl2")}</small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <SiReact className="experience__details-icon" />
                             <div>
                                 <h4>ReactJS</h4>
-                                <small className="text-light">{t("experience.front.f4.xp")}</small>
+                                <small className="text-light">{t("experience.lvl1")}</small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <SiVuedotjs className="experience__details-icon" />
                             <div>
                                 <h4>VueJS</h4>
-                                <small className="text-light">{t("experience.front.f5.xp")}</small>
+                                <small className="text-light">{t("experience.lvl1")}</small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <SiSvelte className="experience__details-icon" />
                             <div>
                                 <h4>Svelte</h4>
-                                <small className="text-light">{t("experience.front.f6.xp")}</small>
+                                <small className="text-light">{t("experience.lvl1")}</small>
                             </div>
                         </article>
                     </div>
@@ -75,45 +75,45 @@ const Experience = () => {
                     <h3>{t("experience.back.title")}</h3>
                     <div className="experience__content">
                         <article className="experience__details">
-                            <SiGo className="experience__details-icon" />
+                            <SiNodedotjs className="experience__details-icon" />
                             <div>
-                                <h4>Golang</h4>
-                                <small className="text-light">{t("experience.back.b1.xp")}</small>
+                                <h4>NodeJS</h4>
+                                <small className="text-light">{t("experience.lvl2")}</small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <SiPython className="experience__details-icon" />
                             <div>
                                 <h4>Python</h4>
-                                <small className="text-light">{t("experience.back.b2.xp")}</small>
+                                <small className="text-light">{t("experience.lvl2")}</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <SiNodedotjs className="experience__details-icon" />
+                            <SiGo className="experience__details-icon" />
                             <div>
-                                <h4>NodeJS</h4>
-                                <small className="text-light">{t("experience.back.b3.xp")}</small>
+                                <h4>Golang</h4>
+                                <small className="text-light">{t("experience.lvl2")}</small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <SiMongodb className="experience__details-icon" />
                             <div>
                                 <h4>MongoDB</h4>
-                                <small className="text-light">{t("experience.back.b4.xp")}</small>
+                                <small className="text-light">{t("experience.lvl1")}</small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <SiMysql className="experience__details-icon" />
                             <div>
                                 <h4>MySQL</h4>
-                                <small className="text-light">{t("experience.back.b5.xp")}</small>
+                                <small className="text-light">{t("experience.lvl2")}</small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <SiPostman className="experience__details-icon" />
                             <div>
                                 <h4>Postman</h4>
-                                <small className="text-light">{t("experience.back.b6.xp")}</small>
+                                <small className="text-light">{t("experience.lvl2")}</small>
                             </div>
                         </article>
                     </div>
