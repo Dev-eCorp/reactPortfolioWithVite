@@ -1,4 +1,4 @@
-import CV from "../../assets/pdf/CV_Eduard_Ferney_Cruz_Ospina.pdf"
+import CV from "../../assets/pdf/CurriculumEduardFerneyCruzOspina.pdf";
 import { useTranslation } from "react-i18next";
 
 const CTA = () => {
