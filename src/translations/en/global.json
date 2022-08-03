@@ -6,7 +6,8 @@
         },
         "cta": {
             "cv": "Download CV",
-            "contact": "Let's Talk"
+            "contact": "Let's Talk",
+            "cvOption": "CVEng"
         }
     },
     "nav": {

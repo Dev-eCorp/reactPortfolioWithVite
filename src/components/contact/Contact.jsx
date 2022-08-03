@@ -42,7 +42,7 @@ const Contact = () => {
                         <a href="https://discordapp.com/users/448915196220538880" target="_blank" rel="noreferrer noopener">{t("contact.options.message")}</a>
                     </article>
                 </div>
-                <form ref={form} onSubmit={sendEmail} autocomplete="off">
+                <form ref={form} onSubmit={sendEmail} autoComplete="off">
                     <input type="text" name="name" placeholder={t("contact.form.name")} required />
                     <input type="email" name="email" placeholder={t("contact.form.email")} required />
                     <textarea name="message" rows="7" placeholder={t("contact.form.message")} required></textarea>

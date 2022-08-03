@@ -6,7 +6,8 @@
         },
         "cta": {
             "cv": "Descargar CV",
-            "contact": "Hablemos"
+            "contact": "Hablemos",
+            "cvOption": "CVEsp"
         }
     },
     "nav": {
