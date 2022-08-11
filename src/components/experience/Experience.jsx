@@ -5,16 +5,94 @@ import {
     SiCss3,
     SiJavascript,
     SiReact,
-    SiVuedotjs,
-    SiSvelte,
+    SiVite,
+    SiNextdotjs,
     SiGo,
     SiPython,
     SiNodedotjs,
     SiMongodb,
     SiMysql,
-    SiPostman
+    SiLinux
 } from "react-icons/si";
 import { useTranslation } from "react-i18next";
+
+const front = [
+    {
+        id: 1,
+        icon: <SiHtml5/>,
+        title: "HTML",
+        lvl: "experience.lvl3"
+    },
+    {
+        id: 2,
+        icon: <SiCss3/>,
+        title: "CSS",
+        lvl: "experience.lvl2"
+    },
+    {
+        id: 3,
+        icon: <SiJavascript/>,
+        title: "JavaScript",
+        lvl: "experience.lvl2"
+    },
+    {
+        id: 4,
+        icon: <SiReact/>,
+        title: "ReactJS",
+        lvl: "experience.lvl2"
+    },
+    {
+        id: 5,
+        icon: <SiVite/>,
+        title: "Vite",
+        lvl: "experience.lvl1"
+    },
+    {
+        id: 6,
+        icon: <SiNextdotjs/>,
+        title: "NextJS",
+        lvl: "experience.lvl1"
+    }
+]
+
+const back = [
+    {
+        id: 1,
+        icon: <SiNodedotjs/>,
+        title: "NodeJS",
+        lvl: "experience.lvl2"
+    },
+    {
+        id: 2,
+        icon: <SiLinux/>,
+        title: "Linux",
+        lvl: "experience.lvl2"
+    },
+    {
+        id: 3,
+        icon: <SiGo/>,
+        title: "Golang",
+        lvl: "experience.lvl2"
+    },
+    {
+        id: 4,
+        icon: <SiMongodb/>,
+        title: "MongoDB",
+        lvl: "experience.lvl2"
+    },
+    {
+        id: 5,
+        icon: <SiMysql/>,
+        title: "MySQL",
+        lvl: "experience.lvl2"
+    },
+    {
+        id: 6,
+        icon: <SiPython/>,
+        title: "Python",
+        lvl: "experience.lvl1"
+    }
+]
 
 const Experience = () => {
     const [t] = useTranslation("global");
@@ -22,100 +100,41 @@ const Experience = () => {
         <section id="experience">
             <h5>{t("experience.title")}</h5>
             <h2>{t("experience.subtitle")}</h2>
-
             <div className="container experience__container">
                 <div className="experience__front">
                     <h3>{t("experience.front.title")}</h3>
                     <div className="experience__content">
-                        <article className="experience__details">
-                            <SiHtml5 className="experience__details-icon" />
-                            <div>
-                                <h4>HTML</h4>
-                                <small className="text-light">{t("experience.lvl3")}</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <SiCss3 className="experience__details-icon" />
-                            <div>
-                                <h4>CSS</h4>
-                                <small className="text-light">{t("experience.lvl2")}</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <SiJavascript className="experience__details-icon" />
-                            <div>
-                                <h4>JavaScript</h4>
-                                <small className="text-light">{t("experience.lvl2")}</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <SiReact className="experience__details-icon" />
-                            <div>
-                                <h4>ReactJS</h4>
-                                <small className="text-light">{t("experience.lvl1")}</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <SiVuedotjs className="experience__details-icon" />
-                            <div>
-                                <h4>VueJS</h4>
-                                <small className="text-light">{t("experience.lvl1")}</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <SiSvelte className="experience__details-icon" />
-                            <div>
-                                <h4>Svelte</h4>
-                                <small className="text-light">{t("experience.lvl1")}</small>
-                            </div>
-                        </article>
+                        {
+                            front.map(({ id, icon, title, lvl }) => {
+                                return (
+                                    <article key={id} className="experience__details">
+                                        <div className="experience__details-icon">{icon}</div>
+                                        <div>
+                                            <h4>{title}</h4>
+                                            <small className="text-light">{t(lvl)}</small>
+                                        </div>
+                                    </article>
+                                )
+                            })
+                        }
                     </div>
                 </div>
                 <div className="experience__back">
                     <h3>{t("experience.back.title")}</h3>
                     <div className="experience__content">
-                        <article className="experience__details">
-                            <SiNodedotjs className="experience__details-icon" />
-                            <div>
-                                <h4>NodeJS</h4>
-                                <small className="text-light">{t("experience.lvl2")}</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <SiPython className="experience__details-icon" />
-                            <div>
-                                <h4>Python</h4>
-                                <small className="text-light">{t("experience.lvl2")}</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <SiGo className="experience__details-icon" />
-                            <div>
-                                <h4>Golang</h4>
-                                <small className="text-light">{t("experience.lvl2")}</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <SiMongodb className="experience__details-icon" />
-                            <div>
-                                <h4>MongoDB</h4>
-                                <small className="text-light">{t("experience.lvl1")}</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <SiMysql className="experience__details-icon" />
-                            <div>
-                                <h4>MySQL</h4>
-                                <small className="text-light">{t("experience.lvl2")}</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <SiPostman className="experience__details-icon" />
-                            <div>
-                                <h4>Postman</h4>
-                                <small className="text-light">{t("experience.lvl2")}</small>
-                            </div>
-                        </article>
+                        {
+                            back.map(({ id, icon, title, lvl }) => {
+                                return (
+                                    <article key={id} className="experience__details">
+                                        <div className="experience__details-icon">{icon}</div>
+                                        <div>
+                                            <h4>{title}</h4>
+                                            <small className="text-light">{t(lvl)}</small>
+                                        </div>
+                                    </article>
+                                )
+                            })
+                        }
                     </div>
                 </div>
             </div>
