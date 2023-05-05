@@ -1,69 +1,69 @@
 {
-    "header": {
-        "headerMain": {
-            "hello": "Hola Soy",
-            "scroll": "Desplazarse Hacia Abajo"
-        },
-        "cta": {
-            "cv": "Descargar CV",
-            "contact": "Hablemos",
-            "cvOption": "CVEsp"
-        }
+  "header": {
+    "headerMain": {
+      "hello": "Hola Soy",
+      "scroll": "Desplazarse Hacia Abajo"
     },
-    "nav": {
-        "es": "Traducir a español",
-        "en": "Traducir a ingles"
-    },
-    "about": {
-        "title": "Conozca",
-        "subtitle": "Sobre Mí",
-        "content": {
-            "xp1": "Experiencia",
-            "xp2": "8 meses trabajando",
-            "cl": "Clientes",
-            "pr1": "Proyectos",
-            "pr2": "6 Completados",
-            "text": "Mi nombre es Eduard, soy desarrollador web con mas experiencia en backend pero aprendiendo diariamente mas acerca del frontend. Soy técnico en sistemas, estudie una tecnología en análisis y desarrollo de sistemas de información y actualmente estoy estudiando en un bootcamp de desarrollo web full stack en la empresa ProTalento, decidí dedicarme a la programación web cuando descubrí la capacidad de poder plasmar casi cualquier idea y hacerla funcionar en un navegador web mediante la programación.",
-            "contact": "Hablemos"
-        }
-    },
-    "experience": {
-        "title": "Qué habilidades tengo",
-        "subtitle": "Mi Experiencia",
-        "front": {
-            "title": "Desarrollo Frontend"
-        },
-        "back": {
-            "title": "Desarrollo Backend"
-        },
-        "lvl1": "Basico",
-        "lvl2": "Intermedio",
-        "lvl3": "Avanzado"
-    },
-    "portfolio": {
-        "title": "Mi Trabajo Reciente",
-        "subtitle": "Portafolio",
-        "demo": "Demo en vivo"
-    },
-    "contact": {
-        "title": "Ponte en contacto",
-        "subtitle": "Conmigo",
-        "options": {
-            "mail": "Enviar un correo",
-            "message": "Enviar un mensaje"
-        },
-        "form": {
-            "name": "Tu nombre completo",
-            "email": "Tu correo electrónico",
-            "message": "Tu mensaje"
-        }
-    },
-    "footer": {
-        "home": "Inicio",
-        "about": "Sobre Mí",
-        "experience": "Experiencia",
-        "portfolio": "Portafolio",
-        "contact": "Contacto",
-        "copy": "Dev_eCorp. Todos los derechos reservados."
+    "cta": {
+      "cv": "Descargar CV",
+      "contact": "Hablemos",
+      "cvOption": "CVEsp"
     }
+  },
+  "nav": {
+    "es": "Traducir a español",
+    "en": "Traducir a ingles"
+  },
+  "about": {
+    "title": "Conozca",
+    "subtitle": "Sobre Mí",
+    "content": {
+      "xp1": "Experiencia",
+      "xp2": "+1 Año trabajando",
+      "cl": "Clientes",
+      "pr1": "Proyectos",
+      "pr2": "+10 Completados",
+      "text": "Ingeniero de software en formación y entusiasta desarrollador frontend especializado en React, con habilidades en inglés B1 en constante mejora. Destaco por mi capacidad en la gestión de proyectos y el desarrollo de sitios y aplicaciones web, empleando tecnologías de vanguardia como NodeJS, ExpressJS, TypeScript, Git y Linux. Mi experiencia incluye el manejo de bases de datos relacionales (MySQL) y no relacionales (MongoDB), así como la creación y desarrollo de interfaces de usuario utilizando HTML, CSS, JavaScript, React, Next y Redux.",
+      "contact": "Hablemos"
+    }
+  },
+  "experience": {
+    "title": "Qué habilidades tengo",
+    "subtitle": "Mi Experiencia",
+    "front": {
+      "title": "Desarrollo Frontend"
+    },
+    "back": {
+      "title": "Desarrollo Backend"
+    },
+    "lvl1": "Basico",
+    "lvl2": "Intermedio",
+    "lvl3": "Avanzado"
+  },
+  "portfolio": {
+    "title": "Mi Trabajo Reciente",
+    "subtitle": "Portafolio",
+    "demo": "Demo en vivo"
+  },
+  "contact": {
+    "title": "Ponte en contacto",
+    "subtitle": "Conmigo",
+    "options": {
+      "mail": "Enviar un correo",
+      "message": "Enviar un mensaje"
+    },
+    "form": {
+      "name": "Tu nombre completo",
+      "email": "Tu correo electrónico",
+      "message": "Tu mensaje"
+    }
+  },
+  "footer": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "experience": "Experiencia",
+    "portfolio": "Portafolio",
+    "contact": "Contacto",
+    "copy": "Dev_eCorp. Todos los derechos reservados."
+  }
 }
