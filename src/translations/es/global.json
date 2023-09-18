@@ -1,69 +1,66 @@
 {
-  "header": {
-    "headerMain": {
-      "hello": "Hola Soy",
-      "scroll": "Desplazarse Hacia Abajo"
-    },
-    "cta": {
-      "cv": "Descargar CV",
-      "contact": "Hablemos",
-      "cvOption": "CVEsp"
-    }
-  },
-  "nav": {
-    "es": "Traducir a español",
-    "en": "Traducir a ingles"
-  },
-  "about": {
-    "title": "Conozca",
-    "subtitle": "Sobre Mí",
-    "content": {
-      "xp1": "Experiencia",
-      "xp2": "+1 Año trabajando",
-      "cl": "Clientes",
-      "pr1": "Proyectos",
-      "pr2": "+10 Completados",
-      "text": "Ingeniero de software en formación y entusiasta desarrollador frontend especializado en React, con habilidades en inglés B1 en constante mejora. Destaco por mi capacidad en la gestión de proyectos y el desarrollo de sitios y aplicaciones web, empleando tecnologías de vanguardia como NodeJS, ExpressJS, TypeScript, Git y Linux. Mi experiencia incluye el manejo de bases de datos relacionales (MySQL) y no relacionales (MongoDB), así como la creación y desarrollo de interfaces de usuario utilizando HTML, CSS, JavaScript, React, Next y Redux.",
-      "contact": "Hablemos"
-    }
-  },
-  "experience": {
-    "title": "Qué habilidades tengo",
-    "subtitle": "Mi Experiencia",
-    "front": {
-      "title": "Desarrollo Frontend"
-    },
-    "back": {
-      "title": "Desarrollo Backend"
-    },
-    "lvl1": "Basico",
-    "lvl2": "Intermedio",
-    "lvl3": "Avanzado"
-  },
-  "portfolio": {
-    "title": "Mi Trabajo Reciente",
-    "subtitle": "Portafolio",
-    "demo": "Demo en vivo"
-  },
-  "contact": {
-    "title": "Ponte en contacto",
-    "subtitle": "Conmigo",
-    "options": {
-      "mail": "Enviar un correo",
-      "message": "Enviar un mensaje"
-    },
-    "form": {
-      "name": "Tu nombre completo",
-      "email": "Tu correo electrónico",
-      "message": "Tu mensaje"
-    }
-  },
-  "footer": {
-    "home": "Inicio",
-    "about": "Sobre Mí",
-    "experience": "Experiencia",
-    "portfolio": "Portafolio",
-    "contact": "Contacto",
-    "copy": "Dev_eCorp. Todos los derechos reservados."
-  }
+	"header": {
+		"headerMain": {
+			"hello": "Hola Soy",
+			"scroll": "Desplazarse Hacia Abajo"
+		},
+		"cta": {
+			"cv": "Descargar CV",
+			"contact": "Hablemos",
+			"cvOption": "CVEsp"
+		}
+	},
+	"nav": {
+		"es": "Traducir a español",
+		"en": "Traducir a ingles"
+	},
+	"about": {
+		"title": "Conozca",
+		"subtitle": "Sobre Mí",
+		"content": {
+			"xp1": "Experiencia",
+			"xp2": "2 Años trabajando",
+			"cl": "Clientes",
+			"pr1": "Proyectos",
+			"pr2": "+10 Completados",
+			"text": "Estudiante de Ingeniería de Software y desarrollador frontend especializado en diseño y desarrollo de interfaces intuitivas para sitios y aplicaciones web. Apasionado por la gestión de proyectos, cuento con experiencia en tecnologías de punta y trabajo en equipos remotos. Comprometido con el aprendizaje continuo, busco constantemente oportunidades para perfeccionar mis habilidades. Destaco por mi enfoque creativo al resolver problemas y proponer soluciones vanguardistas en diseño frontend.",
+			"contact": "Hablemos"
+		}
+	},
+	"experience": {
+		"title": "Qué habilidades tecnicas tengo",
+		"subtitle": "Mi Experiencia",
+		"front": {
+			"title": "Desarrollo Frontend"
+		},
+		"lvl1": "Basico",
+		"lvl2": "Intermedio",
+		"lvl3": "Avanzado"
+	},
+	"portfolio": {
+		"title": "Mi Trabajo Reciente",
+		"subtitle": "Portafolio",
+		"demo": "Ver Pagina"
+	},
+	"contact": {
+		"title": "Ponte en contacto",
+		"subtitle": "Conmigo",
+		"options": {
+			"mail": "Enviar un correo",
+			"message": "Enviar un mensaje"
+		},
+		"form": {
+			"name": "Tu nombre completo",
+			"email": "Tu correo electrónico",
+			"message": "Tu mensaje"
+		}
+	},
+	"footer": {
+		"home": "Inicio",
+		"about": "Sobre Mí",
+		"experience": "Experiencia",
+		"portfolio": "Portafolio",
+		"contact": "Contacto",
+		"copy": "Dev_eCorp. Todos los derechos reservados."
+	}
 }

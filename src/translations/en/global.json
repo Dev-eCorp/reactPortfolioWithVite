@@ -1,69 +1,66 @@
 {
-  "header": {
-    "headerMain": {
-      "hello": "Hello I'm",
-      "scroll": "Scroll Down"
-    },
-    "cta": {
-      "cv": "Download CV",
-      "contact": "Let's Talk",
-      "cvOption": "CVEng"
-    }
-  },
-  "nav": {
-    "es": "Translate to spanish",
-    "en": "Translate to english"
-  },
-  "about": {
-    "title": "Get To Know",
-    "subtitle": "About Me",
-    "content": {
-      "xp1": "Experience",
-      "xp2": "+1 Year working",
-      "cl": "Clients",
-      "pr1": "Projects",
-      "pr2": "+10 Completed",
-      "text": "As an aspiring software engineer and enthusiastic frontend developer specializing in React, I possess B1 English skills that are constantly improving. I excel in project management and the development of websites and web applications, utilizing cutting-edge technologies such as NodeJS, ExpressJS, TypeScript, Git, and Linux. My experience includes working with relational (MySQL) and non-relational (MongoDB) databases, as well as creating and developing user interfaces using HTML, CSS, JavaScript, React, Next, and Redux.",
-      "contact": "Let's Talk"
-    }
-  },
-  "experience": {
-    "title": "What Skills I Have",
-    "subtitle": "My Experience",
-    "front": {
-      "title": "Frontend Development"
-    },
-    "back": {
-      "title": "Backend Development"
-    },
-    "lvl1": "Basic",
-    "lvl2": "Intermediate",
-    "lvl3": "Advanced"
-  },
-  "portfolio": {
-    "title": "My Recent Work",
-    "subtitle": "Portfolio",
-    "demo": "Live Demo"
-  },
-  "contact": {
-    "title": "Get In Touch",
-    "subtitle": "Contact Me",
-    "options": {
-      "mail": "Send a mail",
-      "message": "Send a message"
-    },
-    "form": {
-      "name": "Your Full Name",
-      "email": "Your Email",
-      "message": "Your Message"
-    }
-  },
-  "footer": {
-    "home": "Home",
-    "about": "About",
-    "experience": "Experience",
-    "portfolio": "Portfolio",
-    "contact": "Contact",
-    "copy": "Dev_eCorp. All rights reserved."
-  }
+	"header": {
+		"headerMain": {
+			"hello": "Hello I'm",
+			"scroll": "Scroll Down"
+		},
+		"cta": {
+			"cv": "Download CV",
+			"contact": "Let's Talk",
+			"cvOption": "CVEng"
+		}
+	},
+	"nav": {
+		"es": "Translate to spanish",
+		"en": "Translate to english"
+	},
+	"about": {
+		"title": "Get To Know",
+		"subtitle": "About Me",
+		"content": {
+			"xp1": "Experience",
+			"xp2": "2 Years working",
+			"cl": "Clients",
+			"pr1": "Projects",
+			"pr2": "+10 Completed",
+			"text": "Software Engineering student and frontend developer specialized in design and development of intuitive interfaces for websites and web applications. Passionate about project management, I have experience in cutting-edge technologies and working in remote teams. Committed to continuous learning, I am constantly looking for opportunities to improve my skills. I stand out for my creative approach to solving problems and proposing cutting-edge solutions in frontend design.",
+			"contact": "Let's Talk"
+		}
+	},
+	"experience": {
+		"title": "What Technical Skills I Have",
+		"subtitle": "My Experience",
+		"front": {
+			"title": "Frontend Development"
+		},
+		"lvl1": "Basic",
+		"lvl2": "Intermediate",
+		"lvl3": "Advanced"
+	},
+	"portfolio": {
+		"title": "My Recent Work",
+		"subtitle": "Portfolio",
+		"demo": "View Page"
+	},
+	"contact": {
+		"title": "Get In Touch",
+		"subtitle": "Contact Me",
+		"options": {
+			"mail": "Send a mail",
+			"message": "Send a message"
+		},
+		"form": {
+			"name": "Your Full Name",
+			"email": "Your Email",
+			"message": "Your Message"
+		}
+	},
+	"footer": {
+		"home": "Home",
+		"about": "About",
+		"experience": "Experience",
+		"portfolio": "Portfolio",
+		"contact": "Contact",
+		"copy": "Dev_eCorp. All rights reserved."
+	}
 }

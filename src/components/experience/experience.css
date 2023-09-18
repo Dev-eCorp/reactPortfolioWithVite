@@ -1,1 +1,66 @@
-.experience__container{display:grid;grid-template-columns:repeat(2,1fr);gap:32rem}.experience__container>div{background:var(--color-bg-variant);padding:38.4rem 80rem;border-radius:32rem;border:1rem solid transparent;transition:var(--transition)}.experience__container>div:hover{background:0 0;border-color:var(--color-primary-variant);cursor:default}.experience__container>div h3{text-align:center;margin-bottom:32rem;color:var(--color-primary)}.experience__content{display:grid;grid-template-columns:repeat(2,1fr);row-gap:32rem}.experience__details{display:flex;align-items:center;gap:16rem}.experience__details-icon{font-size:32rem;margin-top:6rem}@media screen and (max-width:1024px){.experience__container{grid-template-columns:1fr}.experience__container>div{width:80%;padding:32rem;margin:0 auto}.experience__content{padding:16rem}}@media screen and (max-width:600px){.experience__container{gap:16rem}.experience__container>div{width:100%;padding:32rem 16rem}}
+.experience__container {
+	display: grid;
+	gap: 32rem;
+	width: 100%;
+}
+.experience__container > div {
+	background: var(--color-bg-variant);
+	padding: 38.4rem 80rem;
+	border-radius: 32rem;
+	border: 1rem solid transparent;
+	transition: var(--transition);
+}
+.experience__container > div:hover {
+	background: 0 0;
+	border-color: var(--color-primary-variant);
+	cursor: default;
+}
+.experience__container > div h3 {
+	text-align: center;
+	margin-bottom: 32rem;
+	color: var(--color-primary);
+}
+.experience__content {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-content: center;
+	justify-items: center;
+	row-gap: 32rem;
+}
+.experience__details {
+	display: flex;
+	align-items: center;
+	gap: 16rem;
+}
+.experience__details-icon {
+	font-size: 32rem;
+	margin-top: 6rem;
+}
+@media screen and (max-width: 1024px) {
+	.experience__container {
+		grid-template-columns: 1fr;
+	}
+	.experience__container > div {
+		width: 80%;
+		padding: 32rem;
+		margin: 0 auto;
+	}
+	.experience__content {
+		padding: 16rem;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media screen and (max-width: 800px) {
+	.experience__container {
+		gap: 16rem;
+	}
+	.experience__content {
+		padding: 8rem;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 16rem;
+	}
+	.experience__details-icon {
+		font-size: 32rem;
+		margin-top: 8rem;
+	}
+}
